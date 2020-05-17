@@ -1,6 +1,7 @@
 # Deno Tutorial Notes
 
-A sample application for [Deno][deno], with VSCode debugging.
+A sample application for [Deno][deno], with VSCode debugging. Based on a [dev.to
+tutorial][tut].
 
 ## Useful commands
 
@@ -29,4 +30,6 @@ errors. Need multiple workspaces? Or a precompile step?
 Unsolved.
 
 [deno]: https://deno.land/
+[tut]:
+	https://dev.to/aralroca/learn-deno-chat-app-37f0?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email
 [gh1]: https://github.com/denoland/deno/issues/5175
