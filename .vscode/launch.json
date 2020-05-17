@@ -15,6 +15,7 @@
 				"--allow-net",
 				"--allow-read",
 				"--inspect-brk",
+				"--unstable",
 				"index.ts"
 			],
 			"port": 9229,
