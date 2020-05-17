@@ -8,9 +8,11 @@ const users = new Map<string, WebSocket>();
 
 function broadcast(message: string, senderId?: string): void {
 	if (!message) return;
+	const msg = senderId ? `[${senderId}]: ${message}` : message;
 	for (const user of users.values()) {
-		user.send(senderId ? `[${senderId}]: ${message}` : message);
+		user.send(msg);
 	}
+	console.log(msg);
 }
 
 export async function chat(ws: WebSocket): Promise<void> {
